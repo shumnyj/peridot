@@ -12,39 +12,39 @@ return {
 	{
 		SHAVE =
 		{
-			AWAKEBEEFALO = "I'm not going to try that while he's awake.",
-			GENERIC = "I can't shave that!",
-			NOBITS = "There isn't even any stubble left!",
+			AWAKEBEEFALO = "Go to sleep, big fluffy clod!",
+			GENERIC = "Unshaveble.",
+			NOBITS = "There is nothing to cut.",
 		},
 		STORE =
 		{
-			GENERIC = "It's full.",
-			NOTALLOWED = "That can't go in there.",
-			INUSE = "I should wait my turn.",
+			GENERIC = "Capacity exeeded.",
+			NOTALLOWED = "You chose wrong container, buddy.",
+			INUSE = "Somebody come here just to occupy this. Nah.",
 		},
 		RUMMAGE =
 		{	
 			GENERIC = "I can't do that.",
-			INUSE = "I should wait my turn.",	
+			INUSE = "I should do it next time.",	
 		},
         COOK =
         {
-            GENERIC = "I can't do that.",
-            INUSE = "I should wait my turn.",
-            TOOFAR = "It's too far away!",
+            GENERIC = "I don't need to eat.",
+            INUSE = "Queques...",
+            TOOFAR = "My limb enchancers can't handle that!",
         },
         GIVE =
         {
             DEAD = "Maybe I'll just hold on to this.",
-            SLEEPING = "Too unconscious to care.",
-            BUSY = "I'll try again in a second.",
+            SLEEPING = "I suppose he unable to take it.",
+            BUSY = "Maybe later.",
         },
         GIVETOPLAYER = 
         {
-        	FULL = "Their pockets are too full!",
-            DEAD = "Maybe I'll just hold on to this.",
-            SLEEPING = "Too unconscious to care.",
-            BUSY = "I'll try again in a second.",
+        	FULL = "They took too much on them",
+            DEAD = "This will suit me better.",
+            SLEEPING = "I suppose that he unable to get it.",
+            BUSY = "Maybe later.",
     	},
     	GIVEALLTOPLAYER = 
         {
@@ -55,31 +55,31 @@ return {
     	},
         WRITE =
         {
-            GENERIC = "I can't do that.",
-            INUSE = "There's only room for one scribbler.",
+            GENERIC = "Not this time.",
+            INUSE = "I need record my notes more than you!",
         },
         CHANGEIN =
         {
             GENERIC = "I can't do that.",
-            BURNING = "It's too dangerous right now!",
-            INUSE = "It can only handle one style change at a time.",
+            BURNING = "It seems that that dress was really hot!",
+            INUSE = "Disguising for clods.",
         },
         ATTUNE =
         {
-            NOHEALTH = "I don't feel well enough.",
+            NOHEALTH = "My form is too unstable for that!",
         },
 	},
-	ACTIONFAIL_GENERIC = "I can't do that.",
-	ANNOUNCE_ADVENTUREFAIL = "That didn't go well. I'll have to try again.",
-	ANNOUNCE_BEES = "BEEEEEEEEEEEEES!!!!",
-	ANNOUNCE_BOOMERANG = "Ow! I should try to catch that!",
-	ANNOUNCE_CHARLIE = "What was that?!",
-	ANNOUNCE_CHARLIE_ATTACK = "OW! Something bit me!",
-	ANNOUNCE_COLD = "So cold!",
-	ANNOUNCE_HOT = "Need... ice... or... shade!",
-	ANNOUNCE_CRAFTING_FAIL = "I don't have all of the ingredients.",
-	ANNOUNCE_DEERCLOPS = "That sounded big!",
-	ANNOUNCE_DUSK = "It's getting late. It will be dark soon.",
+	ACTIONFAIL_GENERIC = "Not this time.",
+	ANNOUNCE_ADVENTUREFAIL = "Expedition failed. Homeworld, do you copy, over.",
+	ANNOUNCE_BEES = "I shouldn't meet with them",
+	ANNOUNCE_BOOMERANG = "Ouch! I need to attune my enchancers.",
+	ANNOUNCE_CHARLIE = "Who's there?",
+	ANNOUNCE_CHARLIE_ATTACK = "My phisical form is attacked by unknown enemy!",
+	ANNOUNCE_COLD = "Temperature is uncomfortable for existing.",
+	ANNOUNCE_HOT = "Feels like I'm gonna melt!",
+	ANNOUNCE_CRAFTING_FAIL = "My resources are insufficient.,
+	ANNOUNCE_DEERCLOPS = "Earth shaking. The Cluster?!"
+	ANNOUNCE_DUSK = "Local star is hiding beyond horison."
 	ANNOUNCE_EAT =
 	{
 		GENERIC = "Yum!",
