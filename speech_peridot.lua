@@ -318,27 +318,27 @@ return {
             DAWN = "The strange events are almost gone!",
             NOMAGIC = "There's no magic around here.",
 		},
-		BISHOP_NIGHTMARE = "It's falling apart!",*************************************
+		BISHOP_NIGHTMARE = "It's falling apart!",
 		ROOK_NIGHTMARE = "Terrifying!",
 		KNIGHT_NIGHTMARE = "It's a knightmare!",
-		MINOTAUR = "That thing doesn't look happy.",
-		SPIDER_DROPPER = "Note to self: Don't look up.",
+		MINOTAUR = "That thing doesn't look loyal.",
+		SPIDER_DROPPER = "Note: Don't look up.",
 		NIGHTMARELIGHT = "I wonder what function this served.",
-		NIGHTSTICK = "It uses electricity?",
+		NIGHTSTICK = "Do it use electricity?",
 		GREENGEM = "Uh. Hello? Sister? Are you sentient? No?",
-		RELIC = "Looks pretty ancient.",
+		RELIC = "Looks pretty ancient for this planet.",
 		RUINS_RUBBLE = "With my genie this can be fixed.",
-		MULTITOOL_AXE_PICKAXE = "Very efficient tool.",
+		MULTITOOL_AXE_PICKAXE = "Very efficient tool compared to other local ones.",
 		ORANGESTAFF = "An unknown teleportation tool. Appears to be short-ranged.",
-		YELLOWAMULET = "Warm to the touch.",
-		GREENAMULET = "Boosts my engineering skills. Probably some type of computing device.",
+		YELLOWAMULET = "Is it living?",
+		GREENAMULET = "Boosts my pretty nice engineering skills. Probably some type of calculating device.",
 		SLURPERPELT = "Doesn't look much different dead.",	
 
 		SLURPER = "Hairy.",
 		SLURPER_PELT = "Doesn't look much different dead.",
 		ARMORSLURPER = "A soggy, sustaining, succulent suit.",
 		ORANGEAMULET = "Nice way of using teleportation.",
-		YELLOWSTAFF = "Creates miniature stars. Their lifetime is limited.",
+		YELLOWSTAFF = "Light source creation device. Dunno how this junk works.",
 		YELLOWGEM = "Just a common crystal. I want it to be alive... so lonely...",
 		ORANGEGEM = "Hello, old pal. Maybe I even miss you here.",
 		TELEBASE = 
@@ -349,7 +349,7 @@ return {
 		GEMSOCKET = 
 		{
 			VALID = "Looks ready.",
-			GEMS = "It needs a gem.",
+			GEMS = "It needs one of us.",
 		},
 		STAFFLIGHT = "That seems really dangerous.",
 	
@@ -364,7 +364,7 @@ return {
 
 		CAVE_BANANA = "It's mushy.",
 		CAVE_BANANA_COOKED = "Yum!",
-		CAVE_BANANA_TREE = "It's dubiously photosynthetical.",
+		CAVE_BANANA_TREE = "It's life processes shouldn't occure here. Strange.",
 		ROCKY = "I don't want to meet these claws.",
 		
 		COMPASS =
@@ -435,7 +435,7 @@ return {
 		SLURTLE_SHELLPIECES="A puzzle with no solution.",
 		SLURTLEHAT="I hope it doesn't mess up my hair.",
 		SLURTLEHOLE="A den of 'ew'.",
-		SLURTLESLIME="If it wasn't useful, I wouldn't touch it.",
+		SLURTLESLIME="If it won't be useful, I wouldn't touch it.",
 		SNURTLE="He's less gross, but still gross.",
 		SPIDER_HIDER="Such a disgusting creature.",
 		SPIDER_SPITTER="Spiders are my least favorite monsters here, to be honest.",
@@ -456,7 +456,7 @@ return {
 		TURF_GRASS = "Yet another ground type.",
 		TURF_MARSH = "Yet another ground type.",
 		TURF_ROAD = "Yet another ground type.",
-		TURF_ROCKY = "Yet another ground type.",
+		TURF_ROCKY = "In theory it can contain another gems.",
 		TURF_SAVANNA = "Yet another ground type.",
 		TURF_WOODFLOOR = "Yet another ground type.",
 
@@ -471,7 +471,7 @@ return {
 		TURF_BADLANDS = "Yet another ground type.",
 
 		POWCAKE = "I don't know if I'm hungry enough.",
-        CAVE_ENTRANCE = "I can't move this.",
+        CAVE_ENTRANCE = "I can't move this with my enhancers.",
         CAVE_ENTRANCE_RUINS = "It's probably hiding something.",
         CAVE_ENTRANCE_OPEN = {
             GENERIC = "The earth itself rejects me!",
@@ -502,14 +502,14 @@ return {
 			REMAINS_THINGIE = "This was once some thing before it got burned...",
 		},
 		AXE = "I wish my robonoids could do this dirty work for me...",
-		BABYBEEFALO = "Small. Maybe it needs enhancements?",
+		BABYBEEFALO = "Small. Is it defective?",
 		BACKPACK = "It's for me to put my stuff in.",
 		BACONEGGS = "I cooked it myself!",
 		BANDAGE = "I think i can use it to prevent destabilization.",
 		BASALT = "That's too strong to break through!",
 		BATBAT = "Could i use two of these for flying?",	-- Duplicated
-		BEARDHAIR = "Someone's facial hair.",
-		BEARGER = "Woah.",
+		BEARDHAIR = "Someone's facial carotin fiber.",
+		BEARGER = "This life for is exeptionally furry.",
 		BEARGERVEST = "Welcome to hibernation station!",
 		ICEPACK = "The fur keeps the temperature inside stable.",
 		BEARGER_FUR = "A mat of thick fur.",
@@ -730,7 +730,7 @@ return {
 		DRAGONFRUIT_SEEDS = "It's a seed.",
 		DRAGONPIE = "I cooked it myself!",
 		DRUMSTICK = "I should gobble it.",
-		DRUMSTICK_COOKED = "Now it's even tastier.",
+		DRUMSTICK_COOKED = "Shiuld be consumed this way.",
 		DUG_BERRYBUSH = "I should plant this.",
 		DUG_GRASS = "I should plant this.",
 		DUG_MARSH_BUSH = "I should plant this.",
@@ -914,7 +914,7 @@ return {
 			HELD = "I don't like to hold it without any protection.",
 		},
 		KNIGHT = "Strangely shaped automaton. I could easily create a more effective form.",
-		KOALEFANT_SUMMER = "He is big, but friendly.",
+		KOALEFANT_SUMMER = "He is big, but looks friendly.",
 		KOALEFANT_WINTER = "Fluffy, huge and kind.",
 		KRAMPUS = "Ugh, nasty thief!",
 		KRAMPUS_SACK = "It's bigger on the inside.",
@@ -1321,7 +1321,7 @@ return {
 		TREECLUMP = "It's almost like someone is trying to prevent me from going somewhere.",
 		
 		TRINKET_1 = "They are all melted together.", --Melty Marbles
-		TRINKET_2 = "It's just a cheap replica.", --Fake Kazoo
+		TRINKET_2 = "Similar to local noizegenerator. Anyway, it doesn't work.", --Fake Kazoo
 		TRINKET_3 = "The knot is stuck. Forever.", --Gord's Knot
 		TRINKET_4 = "It must be some kind of religious artifact.", --Gnome
 		TRINKET_5 = "Sadly, it's too small for me to escape on.", --Tiny Rocketship
@@ -1330,7 +1330,7 @@ return {
 		TRINKET_8 = "Great. All of my tub stopping needs are met.", --Hardened Rubber Bung
 		TRINKET_9 = "I'm more of a zipper person, myself.", --Mismatched Buttons
 		TRINKET_10 = "I hope I get out of here before I need these.", --Second-hand Dentures
-		TRINKET_11 = "He whispers beautiful lies to me.", --Lying Robot
+		TRINKET_11 = "Malfunctioning.", --Lying Robot
 		TRINKET_12 = "I'm not sure what I should do with a dessicated tentacle.", --Dessicated Tentacle
 		TRINKET_13 = "It must be some kind of religious artifact.", --Gnomette
 		TRINKET_14 = "Now if I only had some tea...", -- Leaky Teacup
@@ -1338,7 +1338,7 @@ return {
 		TRINKET_16 = "This is the wrong bishop.", -- Black Bishop
 		TRINKET_17 = "An ice cream fork!", -- Bent Spork
 		TRINKET_18 = "I wonder what it's hiding?", -- Toy Trojan Horse
-		TRINKET_19 = "It doesn't spin very well.", -- Unbalanced Top
+		TRINKET_19 = "it useless without right center of mass.", -- Unbalanced Top
 		TRINKET_20 = "Now I can scratch my back; all my problems are solved!", -- Back Scratcher
 		TRINKET_21 = "This egg beater is all bent out of shape.", -- Beaten Beater
 		TRINKET_22 = "Sadly, it's not strong enough to be useful for anything.", -- Frayed Yarn
