@@ -50,20 +50,20 @@ local master_postinit = function(inst)
     --inst.talker_path_override = "dontstarve_DLC001/characters/"
 	
 	-- Stats	
-	inst.components.health:SetMaxHealth(175)
-	inst.components.hunger:SetMax(150)
+	inst.components.health:SetMaxHealth(170)
+	inst.components.hunger:SetMax(130)
 	inst.components.sanity:SetMax(130)
 	
 	-- Damage multiplier (optional)
-    inst.components.combat.damagemultiplier = 1
+    inst.components.combat.damagemultiplier = 0.95
 	
 	-- Hunger rate (optional)
-	inst.components.hunger.hungerrate = 1 * TUNING.WILSON_HUNGER_RATE
+	inst.components.hunger.hungerrate = 0.7 * TUNING.WILSON_HUNGER_RATE
 	
 	inst.components.builder.science_bonus = 1
 	
-	inst.components.locomotor.walkspeed = 6
-    inst.components.locomotor.runspeed = 8
+	inst.components.locomotor.walkspeed = 5
+    inst.components.locomotor.runspeed = 7
 	
 	inst.OnLoad = onload
     inst.OnNewSpawn = onload
